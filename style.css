@@ -1,0 +1,185 @@
+
+
+body{
+    padding:0;
+    margin:0;
+    font: roboto;
+    overflow-x: hidden;
+}
+.column-align{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
+.navbar-brand{
+    font-size: 16px;
+    font-weight: 600;
+}
+.header {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+.heading{
+    font-weight: bold;   
+    margin-bottom: 45px;
+}
+.subheading{
+    font-weight: bold;
+    margin-bottom: 45px;
+    line-height: 28px;
+
+}
+.button-dark{
+    background-color: #091133;
+    color: white;
+    border: 2px solid #091133 ;
+    padding: 0 22px;
+    margin:  10px 10px;
+}
+.button-light
+{
+    background-color: white;
+    color: #091133;
+    border: 2px solid #091133;
+    padding: 0 24px;
+    margin: 10px 10px;
+}
+.top-section{
+    position: relative;
+    
+}
+.banner{
+    position: relative;
+    z-index: 200;
+
+}
+.banner .left-content{
+ align-items: start;
+ justify-content: center;
+ display: flex;
+ flex-direction: column;
+}
+
+.background{
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+
+}
+
+
+/* 02-section*/
+.section-02{
+    padding: 45px;
+}
+.col-content{
+    width: 85px;
+}
+
+/*....Footer....*/
+.price{
+    display: flex;
+    flex-direction: column  ;
+    background-color: #ebeff8;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+
+}
+.horizon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+    height: 70px;
+}
+.horizon2 ul{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin-top:rem;
+  text-align: start;
+  padding: 0;
+
+}
+.horizon2 ul li{
+    margin-right: 3rem;
+    color: gray;
+    text-align: start;
+}
+.horizon2 p i{
+    color: gray;
+    margin-right: 5px;
+}
+.horizon2{
+    padding: 0;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width:765px) {
+ 
+   
+   .right-content{
+    
+    display: none;
+    }
+    .banner{
+        padding:45px;
+    }
+    .subheading{
+        text-align: justify;
+    }
+     
+    .horizon{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: space-around;
+        border-bottom: 1px solid gray;
+        height: 100%;
+    }
+    .horizon2{
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        justify-content: center;
+
+        height: 100%;
+    }
+    .horizon2 ul{
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        text-align: center;
+        justify-content: center;
+        text-align: center;
+        padding: 0;
+    }
+    .horizon2 ul li{
+        margin-right: 0;
+        color: gray;
+        text-align: center;
+
+}
+}
+
+@media screen and (max-width:564px){
+
+    .price{
+        padding: 25px;
+     }
+}
